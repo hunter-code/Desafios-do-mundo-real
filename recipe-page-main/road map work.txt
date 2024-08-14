@@ -1,0 +1,74 @@
+Este arquivo  contém  o passo a passo do que deve ser seguido, para construir  a aplicação.
+ 
+PART1
+CRIANDO A ESTRUTURA BÁSICA COM HTML ##########
+
+[] FAVICON > Fixar o fivcon apropriado para que seja identificado na aba do navegador a origem da criação  do site através da figura.
+
+[X] MAIN > Criar o container  que receberá nossa aplicação principal. Ela terá o nome da própria tag pois será nosso conteúdo inicial. 
+
+[X] .IMAGE > Essa classe será  criada para estilizar a div que conterá  a imagem . 
+
+[X] .TITLE > Essa classe será  adicionada, para possabom englobar o nosso cabeçalho de nível 1 da aplicação.  
+
+[X].TEXT  > Essa classe será  adicionada para que possamos criar estilo específico, para o nosso texto de cabeçalho. 
+
+[
+([X] .TITLE-PREPARATION > Essa classe será  adicionada, para que tenhamos as condições de aplicar nossos estilos , ao título  de preparação.
+
+[X] .LIST-PREPARATION  > Essa classe sera aderida para que tenhamos as condições de costumizar a lista de preparação dos ingredientes de nossa aplicação de receita. )
+
+[X].TITLE-INGREDIENT > Esta classe será criada para que possamos embedar o conteúdo de estilização, de nosso título de ingredientes. 
+
+[X] .LIST-INGREDIENT  > Esta classe tem como objetivo, termos condições  de estilizar a lista de ingredientes de nossa aplicação. 
+
+[X].TITLE-INSTRUCTION > Esta classe será criada, para estilização  do título  de instrução. 
+
+[X] .LIST-INSTRUCTION > Esta classe tem como meta a estilização  da lista de instruções. Esta lista , é  uma lista ordenada que permitirá  o usuário ver a ordem das coisas.
+
+[X] .TITLE-TABLE > Esta classe está sendo criada para customização do título  da tabela.
+
+[X].TEXT-TABLE > Esta classe dara as condições  de estilizarmos de forma precisa o texto dos valores nutrcionais da tabela.
+
+[X] TABLE > Esta tabela permitirá a configuração de estilo para a tabela da aplicação<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Título da página</title>
+</head>
+<body>
+    
+</body>
+</html>. 
+  
+==============================================
+PARTE 2 
+CRIANDO A ESTILIZAÇÃO COM O CSS ##############
+
+[X] .BODY > Criar o fundo , de cor apropriado , que será  o body que receberá  a aplicação tendo ela como etapa,[Reset],[Variable] e [ Cor ] ;
+
+[X] .MAIN > Criar o container  que receberá nossa aplicação principal. Ela terá  como etapa -> fundo > dimensão > posicionamento > bordas > preenchimento 
+
+[X] .IMAGE > posicionamento > dimensão > Borda 
+
+[X] .TITLE > posicionamento > font > cor > tamanho > 
+
+[X] .TEXT > posicionamento > font > cor > tamanho >  
+
+[X] .TITLE-PREPARATION > posicionamento  > font >cor > tamanho > 
+
+[X] .LIST-PREPARATION  > posicionamento > font > dimensão > fundo > preenchimento > borda
+
+[X] .TITLE-INGREDIENT > font >cor > tamanho > posicionamento 
+
+[X] .LIST-INGREDIENT  > fonte > cor > dimensão > preenchimento > linha separadora
+
+[X] .TITLE-INSTRUTION > font >cor > tamanho > posicionamento
+
+[X] .LIST-INSTRUTION > força > fonte > estilo marcação > cor > dimensão > preenchimento > linha separadora
+
+[X] .TITLE-TABLE > font > cor > tamanho > posicionamento
+
+[] . text-table > font > cor > tamanho > posicionamento 
+
+[] .TABLE > texto > celula > tabulação  
