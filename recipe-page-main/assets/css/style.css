@@ -10,7 +10,7 @@ body {
 main {
    background-color:var(--white);
    width:720px;
-   height:100%;
+   height:1920px;
    margin:auto;
    margin-top:100px;
    border-radius:15px;
@@ -111,3 +111,40 @@ main {
     font-size:18px;
     margin-top:20px;
  }
+ 
+ .text-table {
+    font-family:Outfit;
+    color:var(--stone-600);
+    font-size:17px;
+    margin-top:15px;
+ }
+ 
+ table{
+     font-family:Outfit;
+     color:var(--stone-600);
+     margin-top:1px;
+     width:100%;
+     height:35px;
+     border-collapse:collapse;
+ }
+ 
+table tr td {
+     padding:10px;
+     text-align:left;
+     height:40px;
+     border-bottom: solid 1px var(--stone-600);
+    
+ }
+
+ table .fat td {
+    
+    border:none;
+   
+}
+ 
+ table tr td span {
+     
+      color:var(--brown-800);
+      font-weight:700;
+ }
+

@@ -69,6 +69,6 @@ CRIANDO A ESTILIZAÇÃO COM O CSS ##############
 
 [X] .TITLE-TABLE > font > cor > tamanho > posicionamento
 
-[] . text-table > font > cor > tamanho > posicionamento 
+[X] .TEXT-TABLE > font > cor > tamanho > posicionamento 
 
-[] .TABLE > texto > celula > tabulação  
+[X] TABLE > font > cor > posicionamento > espaçamento > linha separadora

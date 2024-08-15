@@ -1,0 +1,32 @@
+/*360x800
+320x568
+375x812*/
+
+@media (max-width:360x800){
+  main { 
+    width:466px;
+    height: 2073px;
+    margin: auto;
+  }
+
+}
+
+
+@media (max-width:320x568){
+    main { 
+      width:466px;
+      height: 2073px;
+      margin: auto;
+    }
+  
+  }
+
+  
+@media (max-width:375x812){
+    main { 
+      width:466px;
+      height: 2073px;
+      margin: auto;
+    }
+  
+  }
