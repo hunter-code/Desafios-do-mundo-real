@@ -1,150 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 
 body {
-  
-  background-color: var(--stone-100);
-}
+    background-color:var(--cream);
+} 
 
-main {
-   background-color:var(--white);
-   width:720px;
-   height:1920px;
-   margin:auto;
-   margin-top:100px;
-   border-radius:15px;
-   padding: 35px;
-}
-
-.image img {
-    width:100%;
-    height :100%;
-    border-radius:20px;
-}
-
-.title{
-    margin-top:25px;
-    font-family: 'Young Serif'; 
-    font-size: 20px; 
-}
-
-.text{
-    margin-top: 20px;
-    font-family: Outfit;
-}
-
-.title-preparation p {
-   margin-top: 15px;
-   font-family:Outfit;
-   font-weight:600;
-   color: var(--rose-800);
-}
-
-.list-preparation ul ,li{
-      margin-top:2px;
-      margin:7px;
-      padding:10px;
-      font-family:Outfit;
-      
-}
-
-.list-preparation {
-    margin-top:25px;
-    padding:20px;
-    background-color:var(--rose-50);
-    border-radius:10px;
-    
-}
-
-
-.list-preparation li::marker{
-     color:var(--rose-800);
-}
-
-.title-ingredient{
-     margin-top:25px;
-     font-family:'Young Serif';
-     font-size:17px;
-     color:var(--brown-800);
-    
-}
-
-
-.list-ingredient li::marker {
-    color:var(--brown-800);
-    
-  }
-
-.list-ingredient ul li{
-    font-family:Outfit;
-    margin:20px;
-    margin-top:1px;
-}
-
-.title-instruction{
-    font-family:'Young Serif';   
-    color:var(--brown-800);
-    font-size:18px;
-    margin-top:20px;
-    
-}
-
-.list-instruction li::marker {
-    font-weight:bold;
-    
-}
-
-.list-instruction ol {
-    
-    margin:20px;
-}
-
-.list-instruction ol li{
-    
-    margin-top:2px;
-}
-
-.title-table{
-    font-family: 'Young Serif';
-    color:var(--brown-800);
-    font-size:18px;
-    margin-top:20px;
- }
- 
- .text-table {
-    font-family:Outfit;
-    color:var(--stone-600);
-    font-size:17px;
-    margin-top:15px;
- }
- 
- table{
-     font-family:Outfit;
-     color:var(--stone-600);
-     margin-top:1px;
+  .principal  {
      width:100%;
-     height:35px;
-     border-collapse:collapse;
- }
+     height:450px;
+  /* margin:auto;  */
+     margin-top:200px;
+     border-radius:10px;
+     display:flex;
+     flex-flow:row wrap;
+     place-content:center center;
+  /* align-items:center; */ 
+} 
  
-table tr td {
-     padding:10px;
-     text-align:left;
-     height:40px;
-     border-bottom: solid 1px var(--stone-600);
-    
- }
+    .principal .image ,.disclosure{
+     width:250px;
+     height:450px;
+ } 
+ 
+ .image img {
+     
+     width:250px;
+     height:450px;
+     border-top-left-radius:10px;
+     border-bottom-left-radius:10px;     
+ } 
+  
+ .disclosure {
+    background-color:var(--white);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;    
+    padding: 25px;  
+} 
+ 
+ .product-name{
+    font-family:var(--montserrat); 
+    letter-spacing:3px;
+    text-transform:uppercase;
+    color:var(--dark-grayish-blue);
+    font-weight:500;
+} 
 
- table .fat td {
-    
-    border:none;
+ .main-title{
+    line-height:30px;
+    margin-top:25px;
+    font-family:var(--fraunces);
+} 
+
+ .description{
+    margin-top:35px;
+    font-family:var(--montserrat);
+    color:var(--dark-grayish-blue);
+    font-size:var(--paragraph);
+    font-weight:500;
+    padding:1px;
+    line-height:20px;
+}
+
+.price  {
+   
+   margin-top:28px;
    
 }
- 
- table tr td span {
+
+.price p {
+   font-family:var(--fraunces);
+   color:var(--dark-cyan);
+   font-size:30px;
+   font-weight:700;
+   
+}
+
+ .canceled span s {
      
-      color:var(--brown-800);
-      font-weight:700;
- }
+   margin:9px;
+   font-size:12px;
+   vertical-align:middle;
+   color:var(--dark-grayish-blue);
+   font-family :var(--montserrat);
+   font-weight:500;
+} 
+
+button {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   padding:20px;            
+   margin-top:35px;
+   font-family:var(--montserrat);
+   background-color:var(--dark-cyan);
+   width:100%;
+   height:2px;     
+   border-radius:5px;
+   border-style:none;
+   padding:20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--dark-great-cyan);
+}
+
+        
+ button span {
+   margin:10px;
+   color:var(--white);
+   font-weight:600;
+   
+} 
+
 

@@ -1,32 +1,31 @@
-/*360x800
-320x568
-375x812*/
+@media(min-width:220px) and (max-width:498px){
 
-@media (max-width:360x800){
-  main { 
-    width:466px;
-    height: 2073px;
-    margin: auto;
-  }
+    main .image img ,.disclosure {
+
+        border-radius:0;
+
+    }
 
 }
 
+@media(min-width:50px) and (max-width:219px){
 
-@media (max-width:320x568){
-    main { 
-      width:466px;
-      height: 2073px;
-      margin: auto;
-    }
-  
-  }
+    main .image img ,.disclosure {
 
-  
-@media (max-width:375x812){
-    main { 
-      width:466px;
-      height: 2073px;
-      margin: auto;
+        border-radius:0;
+
     }
-  
-  }
+    main .image img {
+        width: 199px;
+        height: 450px;
+    }
+    .disclosure {
+        width: 219px;
+        height: 450px;
+    }
+   .main-title {
+    font-size: 15px;  
+    margin:25px;
+}
+
+}

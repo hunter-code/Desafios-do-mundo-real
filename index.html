@@ -3,151 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-<title>Frontend Mentor | Recipe page</title>
-<link rel="stylesheet" href="assets/css/responsive.css">
-<link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon" / >
-<link rel="stylesheet" href="assets/css/reset.css">
-<link rel="stylesheet" href="assets/css/variable.css">
-<link rel="stylesheet" href="assets/css/style.css">
+   <title>
+   Frontend Mentor | Product preview card component
+   </title>
+   <link rel="stylesheet" href="./assets/css/reset.css">
+   <link rel="shortcut icon" href="./assets/images/favicon-32x32.png"/>
+   <link rel="stylesheet" href="./assets/css/style.css">
+   <link rel="stylesheet" href="./assets/css/variable.css">
+   <link rel="stylesheet" href="assets/css/responsive.css">
+    
 </head>
 <body>
-   <main>
-       <div class="image">
-           
-       <img src="assets/images/image-omelette.jpeg" alt="omelete" title="omele sendo preparado"/>
+    <main class="principal">
+        
+        <div class="image">
+           <img src="./assets/images/image-product-desktop.jpg"/>
+        </div>
        
-       </div> 
-        
-        <div class="title">
-          <h1>Simple Omelette Recipe</h1>  
-        </div> 
-        
-        <div>
-            <p class="text">
-          An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-           </p>
-        </div>
-        
-        <div class="title-preparation list-preparation">
-           <p>Preparation time</p>     
-           <ul>
-               <li><strong>Total:</strong> Approximately 10 minutes</li>
-               <li><strong>Preparation:</strong> 5 minutes</li>
-               <li><strong>Cooking:</strong> 5 minutes</li>
-           </ul>
-        </div>
-        
-        <div class="title-ingredient">
-           <h2>Ingredients</h2> 
-        </div>
-        
-        <div class="list-ingredient">
-            <ul>
-                <li>2-3 large eggs</li>
-                <li>Sal2t, to taste</li>
-                <li>Pepper, to taste</li>
-                <li>1 tablespoon of butter or oil</li>
-                <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
-            </ul>
+        <div class="disclosure">
+            <div class="product-name">
+                <p>Perfume</p>
+           </div>
             
-            <hr>
-            
-            <div class="title-instruction">
-                <h2>Instructions</h2>
+            <div class="main-title">
+             <h1>
+            Gabrielle Essence Eau De Parfum
+            </h1>   
             </div>
             
-            <div class="list-instruction">
-                
-                <ol>
-                    <li>
-                        <p> <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-  You can add a tablespoon of water or milk for a fluffier texture.
-                       </p>
-                   </li>
-                   
-                    <li>
-                    <p><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.
-                    </p>
-                    </li>
-                    
-                    
-                    <li>
-                        <p>
-                    <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-  the eggs evenly coat the surface.   
-                        </p>
-                    </li>
-                    
-                    <li>
-                        <p>
-                    <strong> Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the 
-  middle, sprinkle your chosen fillings over one half of the omelette.
-                        </p>  
-                    </li>
-                    
-                    <li>
-                       <p> 
-                  <strong> Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.        </p>
-                    </li>
-                      
-                    <li>
-                        <p>
-                     <strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.
-                        </p>
-                    </li>
-                </ol>
-                
+            <div class="description">
+             <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.
+             </p>   
             </div>
-        
-        </div>
-<hr>    
-       <div class="title-table">
-           <h2>Nutrition</h2>
-       </div> 
-       
-       <div class="text-table">
-           <p>The table below shows nutritional values per serving without the additional fillings.
-           </p>
-      </div>
-     
-    <pre> 
-     <table>
-         <tr>
-             <td>Calories</td>
-             <td><span>277kcal</span></td>
-              
-         </tr>
-      
-         <tr>
-             <td>Carbs</td>
-             <td><span>0g</span></td>
-             
-         </tr>
-        
-         <tr>
-             <td>Protein</td>
-             <td><span>20g</span></td>
-             
-         </tr>
-         
-         <tr class="fat">
-             <td>Fat</td>
-             <td><span>22g</span></td>
             
-              
-         </tr>      
+            <div class="price canceled">
+             <p>$149.99<span><s>$169.99</s></span></p> 
+            </div>
+            
+            <button>
+                <img src="./assets/images/icon-cart.svg" />
+          <span>    Add to Cart </span>
+            </button>
+            
+      </div> 
         
-     </table>
-    </pre>  
-        
-  </main>
+       
+    </main>
 
+ 
 </body>
 </html>
-
-<!--    
+ <!-- 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>  -->
+  </div> -->

@@ -1,13 +1,22 @@
-:root {
-    --white: hsl(0, 0%, 100%);
+ :root{
+/*### Primary*/
 
---stone-100: hsl(30, 54%, 90%);
---stone-150: hsl(30, 18%, 87%);
---stone-600: hsl(30, 10%, 34%);
---stone-900: hsl(24, 5%, 18%);
+--dark-cyan: hsl(158, 36%, 37%);
+--cream: hsl(30, 38%, 92%);
 
---brown-800: hsl(14, 45%, 36%);
+/*### Neutral*/
+--dark-great-cyan:#164548;
+--very-dark-blue: hsl(212, 21%, 14%);
+--dark-grayish-blue: hsl(228, 12%, 48%);
+--white: hsl(0, 0%, 100%);
 
---rose-800: hsl(332, 51%, 32%);
---rose-50: hsl(330, 100%, 98%);
-}
+/* Font size (): 14px */
+--paragraph:12px;
+
+/* Font family */
+--montserrat:Montserrat;
+--fraunces:Fraunces;
+
+
+
+ }
