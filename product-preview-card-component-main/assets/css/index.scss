@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+$cream : hsl(30, 38%, 92%);
+
+$dark-cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$dark-great-cyan:#164548;
+
+$very-dark-blue: hsl(212, 21%, 14%);
+$dark-grayish-blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+
+
+
+
+body {
+    background-color:$cream;
+}
+
+ .principal  {
+     /* background-color:red; */
+     width:100%;
+     height:450px;
+     /* margin:auto; */
+     margin-top:100px;
+     border-radius:10px;
+     display:flex;
+     flex-flow:row wrap;
+     place-content:center center;
+     /* align-items:center; */
+ }
+ 
+ .principal .image ,.disclosure{
+     width:250px;
+     height:450px;
+ }
+ 
+.image img {
+     
+     width:250px;
+     height:450px;
+     border-top-left-radius:10px;
+     border-bottom-left-radius:10px;     
+ }
+  
+.disclosure {
+    background-color:var(--white);
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;    
+    padding: 25px;  
+}
+ 
+.product-name{
+  font-family:var(--montserrat); 
+  letter-spacing:3px;
+  text-transform:uppercase;
+  color:var(--dark-grayish-blue);
+  font-weight:500;
+}
+
+.main-title{
+    line-height:30px;
+    margin-top:25px;
+    font-family:var(--fraunces);
+}
+
+.description{
+   margin-top:35px;
+   font-family:var(--montserrat);
+   color:var(--dark-grayish-blue);
+   font-size:var(--paragraph);
+   font-weight:500;
+   padding:1px;
+   line-height:20px;
+}
+
+.price  {
+   /* background-color: gray; */
+   margin-top:28px;
+   
+}
+
+.price p {
+   font-family:var(--fraunces);
+   color:var(--dark-cyan);
+   font-size:30px;
+   font-weight:700;
+   
+}
+
+ .canceled span s {
+   /* background-color: blue; */ 
+   margin:9px;
+   font-size:12px;
+   vertical-align:middle;
+   color:var(--dark-grayish-blue);
+   font-family :var(--montserrat);
+   font-weight:500;
+}
+
+button {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   padding:20px;            
+   margin-top:35px;
+   font-family:var(--montserrat);
+   background-color:var(--dark-cyan);
+   width:100%;
+   height:2px;     
+   border-radius:5px;
+   border-style:none;
+   padding:20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--dark-great-cyan);
+}
+
+        
+ button span {
+   margin:10px;
+   color:var(--white);
+   font-weight:600;
+   
+} 

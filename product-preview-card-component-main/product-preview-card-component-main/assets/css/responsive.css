@@ -1,0 +1,6 @@
+@media(min-width:220px) and (max-width:498px){
+  
+  .principal .image img ,.disclosure{
+      border-radius:0;
+  }
+}

@@ -1,0 +1,54 @@
+[X] 1 - FAVICON - Construção da parte title aba do navegador que conterá  o icone que dará  a identidade do site;
+
+[...] 2 - BODY -> Cenário  que receberá  a abolição, é  necessário  dar cor segundo ao designer ;
+
+[X] 3 - MAIN -> Criação  da classe que englobará o contêiner principal;
+
+[X] 4 - IMAGE -> Criação da classe imagem que receberá a imagem da aplicação. Que por sua vez é  a figura do anuncio ;
+   
+[X] 5 - DISCLOSURE -> Criação  da classe de divulgação, de nossa aplicação, será o contêiner de nossos textos; 
+
+[X] 6 - PRODUCT-NAME -> criacao  classe nome do produto, que receberá  o local de topo , para a identificação do item; 
+
+[X] 7 - MAIN-TITLE -> Criação  do título princal, que estará  encarregada  de anunciar a essência  do produto ;
+
+[X] 8 - DESCRIPTION -> Criação  do texto de descrição, o qual será  encarregado de fazer o esclarecimento completo do perfume e sua essencia, e completa  divulgação  para o cliente. 
+
+[X] 9 - PRICE -> Criação da classe preço, que estará  encarregada de demonstrar o preço do produto anunciado em nossa aplicação ; 
+
+[X] 10 - CANCELED -> Criação da classe cancelado, que demonstrará o preço  riscado ,para o cliente, demonstrando o barateramento e vantagem.
+
+[X] 11 - BUTTON -> Criação  de um botão  com o texto, adicionar ao carro.
+
+Observação : O texto deve levar anteriormente a figura de um carrinho de feira.
+
+
+=============================================
+2° PARTE ESTILIZAÇÃO CSS
+
+[X] 1 - FAVICON - Linkagem favicon > caminho > foto icon ;
+
+[X] 2 - Reset
+
+[X] 3- body >  Cor ;
+
+[X] 4 - .main ->  dimensão > posicionamento > borda ; 
+
+[X] 5 - .image -> dimensão > posicionamento > borda ;
+
+[X] 6 - .disclosure >cor de fundo > posicionamento > preenchimento > borda ;
+
+
+[X] 7 - .product-name > posicionamento > fonte > cor > tamanho ;
+
+[X] 8 - .main-title > posicionamento > fonte > cor > tamanho ;
+
+[X] 9 - .description > posicionamento > fonte > cor > tamanho ;
+
+[X] 10 - .price > posicionamento > fonte > cor > tamanho ;
+
+[X] 11 - .canceled > efeito riscado > posicionamento > fonte > cor > tamanho ;
+ 
+[X] 12 - button > desenho carrinho > preenchimento > posicionamento > fonte > cor > tamanho > cor-texto ;
+
+[X] 13 - Activity state (efeito hover no botão , cor , transição ) ;
