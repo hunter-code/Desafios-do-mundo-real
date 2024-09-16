@@ -1,0 +1,42 @@
+FOUR CARD FEATURE SECTION MASTER
+
+PRIMEIRA PARTE DO PROJETO - CONSTRUÇÃO DA ESTRUTURA DA APLICAÇÃO COM HTML
+
+[X] 1 - FIVICON -  Construção do icone da aba de navegação que trará  a identificação ao projeto ou aplicação.
+
+[X] 2 - MAIN - Construção do container principal, o qual abrigará toda nossa aplicação.
+
+[X] 3 - SUPERVISOR container - Construção do carde inicial que conterá as infomações do supervisor.
+
+{[X] 4 - CENTRAL-CONTAIER - Construção do container que conterá o eixo central de nosso aplicação.
+
+[X] 5 - TEXT-CONTAINER - Construção do container que abrigará, o texto principal da aplicação, sendo ele único para apresentar a interface.
+
+[X] 6 - TEAM-BUIDER -  Construção do container que abrigará o card de formação de time, nele estará contindo as infomações necessárias ao time.
+
+[X] 7 - KARMA -  Construção do card kerma que conterá as infomações necessárias.}
+
+Obs :  Os container's de 4 ao 7 são diretamente relaciandos de mode que os container's 5 ao 7 estão contidos dentro do container 4.
+
+[x] 8 - CALCULATOR - Construção do card calculator, que terá as infomações necessárias para a infomação do card.
+
+===============================================================================================================
+
+SEGUNDA PARTE DO PROJETO - CONSTRUÇÃO DA ESTILIZAÇÃO DA APLICAÇÃO COM CSS
+
+
+[x] 1 - body -> reset > variable > cor ;
+
+[X] 2- main > modelo flexível e suas propridades;
+
+[] 3 - .supervisor -> Posicionamento > tamanho > borda > sombreamento > fonte > tamnho-fonte> cor > imagem;
+
+[] 4 - .central-container -> Posicionamento > ;
+
+[] 5 - .text-container -> Posicionamento > tamanho > fonte > tamanho-fonte > cor ;
+
+[] 6 - .tema-builder -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;
+
+[] 7- .karma -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;
+
+[] 8- .calculator -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;
