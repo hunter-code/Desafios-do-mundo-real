@@ -1,4 +1,4 @@
-FOUR CARD FEATURE SECTION MASTER
+    FOUR CARD FEATURE SECTION MASTER
 
 PRIMEIRA PARTE DO PROJETO - CONSTRUÇÃO DA ESTRUTURA DA APLICAÇÃO COM HTML
 
@@ -29,14 +29,14 @@ SEGUNDA PARTE DO PROJETO - CONSTRUÇÃO DA ESTILIZAÇÃO DA APLICAÇÃO COM CSS
 
 [X] 2- main > modelo flexível e suas propridades;
 
-[] 3 - .supervisor -> Posicionamento > tamanho > borda > sombreamento > fonte > tamnho-fonte> cor > imagem;
+[X] 3 - .supervisor -> Posicionamento > tamanho > borda > sombreamento > fonte > tamnho-fonte> cor > imagem;
 
-[] 4 - .central-container -> Posicionamento > ;
+[X] 4 - .central-container -> Posicionamento > ;
 
-[] 5 - .text-container -> Posicionamento > tamanho > fonte > tamanho-fonte > cor ;
+[X] 5 - .text-container -> Posicionamento > tamanho > fonte > tamanho-fonte > cor ;
 
-[] 6 - .tema-builder -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;
+[X] 6 - .tema-builder -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;
 
-[] 7- .karma -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;
+[X] 7- .karma -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;
 
-[] 8- .calculator -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;
+[X] 8- .calculator -> Posicionamento >tamanho> borda > sombreamento > fonte > tamnho-fonte > cor > imagem;

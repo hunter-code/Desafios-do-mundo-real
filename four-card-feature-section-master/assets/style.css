@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     background-color:var(--very-light-gray);
 }
 
 .text-container,.team-builder,.karma,.supervisor ,.calculator {
     background-color:blue;
-    width: 300px;
-    height:210px;
-    margin:10px;
+    width: 200px;
+    height:180px;
+    margin:5px;
 }
 
 
@@ -19,8 +21,114 @@ body {
 }
 
 .supervisor {
+    background-color: var(--very-light-gray);
+    padding: 20px;
     margin-top: 350px;
+    margin-right: -30px;
     width: 300px;
-    border-radius: 10px;
-    box-shadow: 10px 0 25px greenyellow ;
+    border-radius: 5px;
+    border-top: solid 5px var(--cyan);
+    box-shadow: 0px 5px 10px var(--grayish-blue) ;
+    font-family: 'Poppins';
+    font-size: 14px;
+    
+}
+.supervisor p {
+color: var(--grayish-blue);
+}
+
+.supervisor img {
+    float: right;
+}
+
+.text-container {
+    background-color:var(--very-light-gray) ;
+    text-align: center;
+    margin-right: 90px;
+    width: 400px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    line-height: 20px;
+}
+
+.text-container .paragraph-1 
+ {
+    color:black;
+    font-size:30px;
+    font-weight: 200;
+}
+.text-container .head .paragraph-2 ,p {
+    color: var(--grayish-blue);
+    font-size: 12px;
+}
+
+.team-builder{
+    margin-left:55px;
+}
+
+.team-builder {
+    background-color: var(--very-light-gray);
+    padding: 20px;
+    margin-top:10px;
+    width: 280px;
+    border-radius: 5px;
+    border-top: solid 5px var(--red);
+    box-shadow: 0px 5px 10px var(--grayish-blue) ;
+    font-family: 'Poppins';
+    font-size: 14px;
+    
+}
+.team-builder p {
+color: var(--grayish-blue);
+}
+
+.team-builder img {
+    float: right;
+}
+
+.karma{
+    margin-left: 55px;
+}
+
+.karma {
+    background-color: var(--very-light-gray);
+    padding: 20px;
+    margin-top:25px;
+    width: 280px;
+    border-radius: 5px;
+    border-top: solid 5px var(--orange);
+    box-shadow: 0px 5px 10px var(--grayish-blue) ;
+    font-family: 'Poppins';
+    font-size: 14px;
+    
+}
+.karma p {
+color: var(--grayish-blue);
+}
+
+.karma img {
+    float: right;
+}
+
+
+.calculator {
+    background-color: var(--very-light-gray);
+    padding: 20px;
+    margin-top:
+     350px;
+     margin-left: -94px;
+    width: 300px;
+    border-radius: 5px;
+    border-top: solid 5px var(--blue);
+    box-shadow: 0px 5px 10px var(--grayish-blue) ;
+    font-family: 'Poppins';
+    font-size: 14px;
+    
+}
+.calculator p {
+color: var(--grayish-blue);
+}
+
+.calculator img {
+    float: right;
 }

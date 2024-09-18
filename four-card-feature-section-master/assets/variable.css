@@ -1,6 +1,7 @@
 /* ## Colors */
 
 /* ### Primary */
+:root {
 
 --red: hsl(0, 78%, 62%);
 --cyan: hsl(180, 62%, 55%);
@@ -9,6 +10,7 @@
 
 /* ### Neutral */
 
---very-dark-blue: hsl(234, 12%, 34%);
+--very-dark-blue:hsl(234, 12%, 34%);
 --grayish-blue:hsl(229, 6%, 66%);
 --very-light-gray: hsl(0, 0%, 98%);
+}
