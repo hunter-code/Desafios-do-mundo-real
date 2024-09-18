@@ -1,0 +1,12 @@
+ @media (min-width:320px) and (max-width:485px) {
+body ,.principal {
+   display: flex;
+    text-align: center;
+    font-size: 30px;
+   
+}
+
+
+
+
+} 
