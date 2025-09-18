@@ -1,0 +1,63 @@
+/* //The designs were created to the following widths:
+
+//- Mobile: 375px
+//- Desktop: 1440px */
+
+
+@media (min-width:320px) and (max-width:520px) {
+     
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center ;
+         width: 50%;
+    }
+
+    .profile-one p, .profile-two p, .profile-tree p ,.profile-four p,.profile-five p {
+    /* margin-left: 0.9rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 14px;  
+}
+
+   .container-one {
+       height: 50rem;
+       padding: 1.56rem;
+      
+    }
+
+  
+}
+
+
+@media (min-width:375px) and (max-width:520px) {
+     
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center ;
+         width:80%;
+    }
+
+    .profile-one p, .profile-two p, .profile-tree p ,.profile-four p,.profile-five p {
+   
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 6px;  
+}
+
+   .container-one {
+       height: 34rem;
+       padding: 1.56rem;
+      
+    }
+
+  
+}
+
+        
+

@@ -1,0 +1,107 @@
+ ==========================================================
+  ESTRUTURAÇÃO DO CÓDIGO HTML
+
+
+  [x]1 - Fiv-icon
+
+  [x]2 - Configuração do idioma;
+
+  [x]3 - Título do desafio;
+
+  [x]4 - Construir um container principal;
+
+  [x]5 - Construir um container do conteúdo;
+
+  [x]6 - Construir uma div para cada conteúdo(5);
+
+  [x]7 - Criar uma classe correspondente para cada uma div;
+
+  [x]8 - Div 1,2,3,4 e 5 , possuem uma div com uma imagem e duas tags p, duas div´s cada uma com uma tag p. 
+
+
+  =========================================================
+   ESTRUTURAÇÃO DO CÓDIGO CSS
+
+  [x]1  - Linkagem do documento de estilos;
+
+  [x]2  - Inserir cor no background;
+
+  [x]3  - Aplicar o display grid no container do conteúdo;
+
+  [9/9]4  - Dar cor ao funda da div 1 ;
+  
+  (x)1° Posicionamento das imagens :
+  (x)2° Forma da imagem 1;
+  (x)3° Borda da imagem 1; 
+  (x)4° Posicionameno dos textos ;
+  (x)5° Fonte dos textos;
+  (x)6° Cor dos textos;
+  (x)7° Tamanho dos textos;
+  (x)8° Borda do container;
+  (x)9° Sombreamento das bordas;
+
+
+  [8/8]5  - Dar cor ao funda da div 2 ;
+  
+  (x)1° Posicionamento da imagem :
+  (X)2° Forma da imagem;
+  (x)3° Borda da imagem 2;
+  (x)3° Posicionameno dos textos ;
+  (x)4° Fonte dos textos;
+  (x)5° Tamanho dos textos;
+  (x)6° Cor dos textos;
+  (x)7° Borda do container;
+  (x)8° Sombreamento das bordas;
+
+  [5/9]6  - Dar cor ao funda da div 3 ;
+  
+  (x)1° Posicionamento da imagem :
+  (x)2° Forma da imagem;
+  (x)3° Borda da imagem 3;
+  (x)4° Posicionameno dos textos ;
+  (x)5° Fonte dos textos;
+  (x)6° Tamanho dos textos;
+  (x)7° Cor dos textos;
+  (x)8° Borda do container;
+  (x)9° Sombreamento das bordas;
+
+  [7/7]7  - Dar cor ao funda da div 4 ;
+  
+  (x)1° Posicionamento da imagem :
+  (x)2° Forma da imagem;
+  (x)3° Borda da imagem 4;
+  (x)2° Posicionameno dos textos ;
+  (x)3° Fonte dos textos;
+  (x)4° Tamanho dos textos;
+  (x)5° Cor dos textos;
+  (x)6° Borda do container;
+  (x)7° Sombreamento das bordas;
+
+  [/7]8  - Dar cor ao funda da div 5 ;
+  
+  (x)1° Posicionamento da imagem :
+  (x)2° Forma da imagem;
+  (x)3° Borda da imagem 5;
+  (x)2° Posicionameno dos textos ;
+  (x)3° Fonte dos textos;
+  (x)4° Tamanho dos textos;
+  (x)5° Cor dos textos;
+  (x)6° Borda do container;
+  (x)7° Sombreamento das bordas;
+
+  [6/6]9 - Configuração do Posicionameno do grid layout;
+
+  (x)1° O layout de grade possue 4 colunas e duas linhas ;
+  
+  (x)2° A div 1 está ocupando a primeira linha  e duas colunas(1°,2°);
+
+  (x)3° A div 2 está ocupando a  primeira linha e uma coluna(3°);
+
+  (x)4° A div 3 está ocupando a primeira ,e segunda linha linha ,e uma coluna(4°);
+
+  (x)5° A div 4 está ocupando a segunda linha e uma coluna(1°);
+
+  (x)6° A diva 5 está ocupando a segunda linha e duas colunas(2°,3°);
+
+  ()10  - Criar a responsividade da aplicação ;
+
